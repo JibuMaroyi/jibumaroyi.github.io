@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061426">
+  <link rel="preload" href="assets/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="theme.js"></script>
+  <title>Benjamin Jibu Maroyi | CV</title>
+  <meta name="description" content="Education, research, publication, professional experience and community work of Benjamin Jibu Maroyi.">
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true"><div class="atmosphere-light"></div></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="site-name" href="index.html">Benjamin Jibu Maroyi</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Overview</a>
+        <a href="cv.html" aria-current="page">CV</a>
+        <button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="true" title="Switch to light mode" hidden><img class="theme-icon" src="assets/moon.svg" width="20" height="20" alt=""></button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page cv-page" tabindex="-1">
+    <div class="cv-intro">
+      <h1>Curriculum vitae</h1>
+      <p>Research interests: efficient vision-language models, visual evidence and medical applications.</p>
+      <div class="cv-actions">
+        <a class="icon-link" href="https://drive.google.com/file/d/1WwuLWsTLvSRrXImiaWFrVVbUTfAL1bVo/view"><img class="inline-icon" src="assets/file-text.svg" width="18" height="18" alt="">CV PDF</a>
+      </div>
+      <p class="updated"><img class="inline-icon" src="assets/calendar.svg" width="16" height="16" alt=""><span>Last updated <time datetime="2026-10-26">26 October 2026</time></span></p>
+    </div>
+
+    <nav class="cv-contents" aria-label="CV sections">
+      <a href="#education">Education</a>
+      <a href="#research">Research</a>
+      <a href="#publication">Publication</a>
+      <a href="#experience">Experience</a>
+      <a href="#teaching">Teaching &amp; community</a>
+      <a href="#awards">Awards</a>
+      <a href="#skills">Skills</a>
+    </nav>
+
+    <section class="cv-section" id="education" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <article class="cv-row">
+        <p class="cv-date">Dec 2021 – Nov 2025</p>
+        <div>
+          <h3>B.Sc. in Computer Science</h3>
+          <p class="institution">Université Catholique de Bukavu · DR Congo</p>
+          <p>Software engineering concentration. Cumulative average: <strong>16.59/20</strong>.</p>
+          <p>Selected coursework: machine learning, linear algebra, calculus, statistics, algorithms and numerical analysis.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="cv-section" id="research" aria-labelledby="research-title">
+      <h2 id="research-title">Research experience</h2>
+      <article class="cv-row" id="vlm-pilot">
+        <p class="cv-date">May 2026 – present</p>
+        <div>
+          <h3>Fatima Fellowship</h3>
+          <p class="institution">Predoctoral Fellow · Remote</p>
+          <p>Compared FP16 and INT8 inference in LLaVA-Med on VQA-RAD through a paired pilot of <strong>50 questions</strong>, examining memory use, latency and individual answers.</p>
+          <p class="cv-note">Pilot completed; full evaluation paused. Answer formatting and scoring need revision before a reliable comparison of answer correctness.</p>
+          <details>
+            <summary>What the pilot clarified</summary>
+            <p>The pilot used the same images and questions across inference conditions: 40 closed questions and 10 open questions. Initial exact-match scoring compared full model responses with short reference answers, making the planned analysis of correct-to-incorrect changes unreliable.</p>
+            <p>Memory and latency measurements describe this pilot configuration, rather than a general result about quantization. My current interest in how vision-language models use visual evidence is a separate research direction.</p>
+          </details>
+        </div>
+      </article>
+
+      <article class="cv-row" id="afiafirst">
+        <p class="cv-date">Jun – Nov 2025</p>
+        <div>
+          <h3>AfiaFirst-TB</h3>
+          <p class="institution">Undergraduate thesis project · Université Catholique de Bukavu</p>
+          <p>Jointly developed a chest X-ray classification prototype with Destin Biringanine. The classification component uses MobileNetV2 and PyTorch, with inference on a CPU.</p>
+          <p>The project reported an <strong>AUC of 0.952</strong> in an evaluation on public chest X-ray data. This was a project evaluation, not clinical validation.</p>
+        </div>
+      </article>
+
+      <article class="cv-row">
+        <p class="cv-date">Feb – Mar 2025</p>
+        <div>
+          <h3>Antimicrobial resistance research</h3>
+          <p class="institution">Bukavu Provincial General Referral Hospital</p>
+          <p>Helped digitise <strong>1,801 bacterial-isolate records</strong> from paper registers and contributed to data cleaning, analysis and visualisation for a retrospective study of antibiotic resistance. Co-authored the resulting article published in 2026.</p>
+        </div>
+      </article>
+
+      <details>
+        <summary>Additional scientific computing &amp; academic projects</summary>
+        <article class="cv-row">
+          <p class="cv-date">Dec 2024 – Jan 2025</p>
+          <div>
+            <h3>Heat-exchanger sizing tool</h3>
+            <p class="institution">Remote collaboration</p>
+            <p>Designed and implemented a Python graphical interface for shell-and-tube heat-exchanger sizing with a final-year mechanical engineering student, integrating CoolProp, NTU-based heat-transfer models and fluid-dynamics correlations.</p>
+          </div>
+        </article>
+        <article class="cv-row">
+          <p class="cv-date">Sep – Oct 2024</p>
+          <div>
+            <h3>Blockchain-based medical records</h3>
+            <p class="institution">Third-year academic project · Université Catholique de Bukavu</p>
+            <p>Contributed to the design of an academic blockchain prototype for storing and sharing electronic medical records, with secure access as a design goal.</p>
+          </div>
+        </article>
+      </details>
+    </section>
+
+    <section class="cv-section" id="publication" aria-labelledby="publication-title">
+      <h2 id="publication-title">Publication</h2>
+      <article class="cv-row">
+        <p class="cv-date">Jul 2026</p>
+        <div>
+          <h3>High Burden of Multidrug-Resistant Bacteria in Eastern Democratic Republic of the Congo: A Retrospective Hospital-Based Study</h3>
+          <p class="institution"><cite>Infection and Drug Resistance</cite>, 2026.</p>
+          <p>Corneille Kabagale Ansima, Gates Iragi Mulume, <strong>Benjamin Jibu Maroyi</strong>, et al.</p>
+          <p>Co-author. Contribution to data preparation, analysis and visualisation.</p>
+          <div class="work-links">
+            <a class="icon-link" href="https://doi.org/10.2147/IDR.S626233">Read article<img class="inline-icon" src="assets/external-link.svg" width="16" height="16" alt=""></a>
+            <a class="icon-link" href="https://pubmed.ncbi.nlm.nih.gov/42502761/">PubMed<img class="inline-icon" src="assets/external-link.svg" width="16" height="16" alt=""></a>
+          </div>
+          <details>
+            <summary>Full author list</summary>
+            <p>Corneille Kabagale Ansima, Gates Iragi Mulume, <strong>Benjamin Jibu Maroyi</strong>, Stella Alanga Murhabazi, Kein Kalume Kamwanga, Alfred Mulumeoderwa Badesire, Patricia Raharisoa Dina, Espoir Ntabala Lwabaguma, Eric Hendwa Kashinja, Emmanuel Ongezi Lurhangire, Alfred Cubaka Kabagale and David Lupande Mwenebitu.</p>
+          </details>
+        </div>
+      </article>
+    </section>
+
+    <section class="cv-section" id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Professional experience</h2>
+      <article class="cv-row">
+        <p class="cv-date">Feb 2026 – present</p>
+        <div>
+          <h3>ML Engineer &amp; Founding Team Member</h3>
+          <p class="institution">Code, Growth Alive · Bukavu</p>
+          <p>Contribute to building an AI and software startup serving clients in Bukavu. Support product development and technical documentation, including work on WewaGo and Urban Track.</p>
+        </div>
+      </article>
+      <article class="cv-row">
+        <p class="cv-date">Apr – Jun 2025</p>
+        <div>
+          <h3>Academic Intern</h3>
+          <p class="institution">Herton.pro · Bukavu</p>
+          <p>Designed the interface, visual identity and web content for Tigmma, a SaaS product for managing local businesses’ financial and sales operations. Conducted product research and collaborated with the development team on implementation.</p>
+        </div>
+      </article>
+      <article class="cv-row">
+        <p class="cv-date">Dec 2023 – Jan 2024</p>
+        <div>
+          <h3>Electoral Trainer &amp; Technical Supervisor</h3>
+          <p class="institution">Independent National Electoral Commission (CENI), DR Congo</p>
+          <p>Trained <strong>30 electoral staff</strong> on electronic voting devices and electoral procedures during the 2023 elections. Provided on-site technical support across <strong>5 polling stations serving more than 2,150 voters</strong>.</p>
+        </div>
+      </article>
+      <article class="cv-row">
+        <p class="cv-date">Nov 2021 – present</p>
+        <div>
+          <h3>Founder &amp; CEO</h3>
+          <p class="institution">Kivu Graphic · Bukavu</p>
+          <p>Founded a creative agency serving local small businesses through branding, graphic design and communication. Lead client acquisition and project delivery. Trained <strong>6 junior creatives</strong>, <strong>3 of whom now contribute to paid client work</strong>.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="cv-section" id="teaching" aria-labelledby="teaching-title">
+      <h2 id="teaching-title">Teaching &amp; community</h2>
+      <article class="cv-row">
+        <p class="cv-date">Dec 2022 – present</p>
+        <div>
+          <h3>Mentor &amp; Project Judge</h3>
+          <p class="institution">Google Developer Group on Campus UCB</p>
+          <ul class="cv-bullets">
+            <li>Mentored students in Python and machine learning and led practical Kaggle and Google Colab workshops and coding sessions for <strong>up to 35 participants</strong>.</li>
+            <li>Evaluated <strong>more than 40 technical projects</strong> at community events and hackathons, including Demo Day 2025, Build with AI 2026 and Build with Gemma 2026.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="cv-row">
+        <p class="cv-date">Apr 2022 – Jun 2026</p>
+        <div>
+          <h3>Private Tutor</h3>
+          <p class="institution">Mathematics &amp; Computer Science · Bukavu</p>
+          <p>Provided individual tutoring for <strong>5 secondary-school students from 2 families</strong>. Built practice plans and tracked students’ progress to support confidence and greater independence in learning.</p>
+        </div>
+      </article>
+      <article class="cv-row">
+        <p class="cv-date">Dec 2021 – Oct 2023</p>
+        <div>
+          <h3>Class President</h3>
+          <p class="institution">Université Catholique de Bukavu</p>
+          <p>Elected to represent a cohort of <strong>125 students</strong> during the first two undergraduate years. Coordinated communication with faculty and administration about class schedules, examinations and student concerns.</p>
+        </div>
+      </article>
+      <article class="cv-row">
+        <p class="cv-date">Oct 2019 – present</p>
+        <div>
+          <h3>Youth Leader &amp; Sunday School Teacher</h3>
+          <p class="institution">CEPAC Filadelfia Mukukwe Church · Bukavu</p>
+          <p>Delivered <strong>more than 200 lessons and mentoring sessions</strong> for children and teenagers. Trained <strong>4 youth volunteers</strong> who now serve independently in livestreaming, photography and videography.</p>
+        </div>
+      </article>
+      <h3 class="subsection-title">Selected talks</h3>
+      <ul class="plain-list">
+        <li><strong>DevFest Kivu · 2024</strong><br>Responsible AI in Education: Opportunities, Challenges and Pitfalls to Avoid</li>
+        <li><strong>Google I/O Extended Kivu · 2024</strong><br>First Steps in the World of Data: Introduction to Kaggle and Google Colab</li>
+      </ul>
+    </section>
+
+    <section class="cv-section" id="awards" aria-labelledby="awards-title">
+      <h2 id="awards-title">Selected awards</h2>
+      <article class="cv-row">
+        <p class="cv-date">Nov 2025</p>
+        <div>
+          <h3>Best Final-Year Project, Faculty of Sciences</h3>
+          <p class="institution">Université Catholique de Bukavu</p>
+          <p>AfiaFirst-TB, a jointly developed final-year prototype, received <strong>18/20</strong> and was recognised as the Faculty of Sciences’ best final-year project in 2025.</p>
+        </div>
+      </article>
+      <article class="cv-row">
+        <p class="cv-date">Feb 2025 · Jul 2026</p>
+        <div>
+          <h3>UBORA National Merit Scholarship</h3>
+          <p class="institution">Orange Foundation · DR Congo</p>
+          <p>Selected <strong>twice</strong> for a national merit scholarship supporting students in digital and technology fields. Was among <strong>40 recipients nationwide in the 2024 cohort</strong> and selected again in July 2026.</p>
+          <p>The 2024 award package included <strong>USD 1,300 in tuition and academic support</strong> and <strong>9 months of Internet access</strong>.</p>
+        </div>
+      </article>
+      <article class="cv-row">
+        <p class="cv-date">Jun 2023</p>
+        <div>
+          <h3>Bukavu Best Student Award</h3>
+          <p class="institution">Cimpunda Excellence Scholarship · 6th Edition</p>
+          <p>Received the award through a citywide academic competition bringing together top-performing students from <strong>6 higher-education institutions in Bukavu</strong>.</p>
+        </div>
+      </article>
+      <article class="cv-row">
+        <p class="cv-date">2022 · 2023 · 2025</p>
+        <div>
+          <h3>Academic Excellence Scholarships</h3>
+          <p class="institution">Université Catholique de Bukavu</p>
+          <p>Received the scholarship <strong>3 times</strong> after achieving annual averages of <strong>at least 80%</strong>. Each award covered <strong>50% of tuition for the following academic year</strong>.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="cv-section" id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills &amp; languages</h2>
+      <dl class="skills-list">
+        <div><dt>Programming &amp; ML</dt><dd>Python, PyTorch, SQL</dd></div>
+        <div><dt>Research tools</dt><dd>Jupyter, Google Colab, Kaggle</dd></div>
+        <div><dt>Creative tools</dt><dd>Adobe Photoshop, Adobe Premiere Pro, OBS, FreeShow</dd></div>
+        <div><dt>Languages</dt><dd>Swahili and French (native); English (proficient)</dd></div>
+      </dl>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p><a class="icon-link" href="mailto:jibu.maroyi@ucbukavu.ac.cd"><img class="inline-icon" src="assets/mail.svg" width="18" height="18" alt="">jibu.maroyi@ucbukavu.ac.cd</a></p>
+      <div class="work-links">
+        <a class="icon-link" href="https://www.linkedin.com/in/jibumaroyi/">LinkedIn<img class="inline-icon" src="assets/external-link.svg" width="16" height="16" alt=""></a>
+        <a class="icon-link" href="https://github.com/JibuMaroyi">GitHub<img class="inline-icon" src="assets/external-link.svg" width="16" height="16" alt=""></a>
+        <a class="icon-link" href="https://www.researchgate.net/profile/Benjamin-Maroyi">ResearchGate<img class="inline-icon" src="assets/external-link.svg" width="16" height="16" alt=""></a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>Benjamin Jibu Maroyi · Bukavu, DR Congo</span>
+      <a href="#top">Back to top</a>
+    </footer>
+  </main>
+</body>
+</html>
