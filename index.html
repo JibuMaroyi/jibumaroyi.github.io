@@ -4,17 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#061426">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preload" href="assets/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="styles.css?v=20261026-2">
+<link rel="stylesheet" href="styles.css?v=20261026-3">
 <script src="theme.js"></script>
+<script src="interface.js" defer></script>
 <title>Benjamin Jibu Maroyi | AI Research</title>
 <meta name="description" content="Benjamin Jibu Maroyi, computer science graduate in Bukavu. Selected work in medical AI, hospital data and efficient vision-language models.">
 </head>
-<body>
+<body id="top">
 <div class="atmosphere" aria-hidden="true"><div class="atmosphere-light"></div></div>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header" id="top"><div class="header-inner">
-<a class="site-name" href="index.html">Benjamin Jibu Maroyi</a>
+<header class="site-header"><div class="header-inner">
+<a class="site-name" href="index.html">Benjamin Maroyi</a>
 <nav aria-label="Main navigation"><a href="index.html" aria-current="page">Overview</a><a href="cv.html">CV</a><button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="true" title="Switch to light mode" hidden><img class="theme-icon" src="assets/moon.svg" width="20" height="20" alt=""></button></nav>
 </div></header>
 <main id="main" class="page" tabindex="-1">
@@ -32,13 +36,12 @@
 </div>
 <div class="intro-copy">
 <h1 id="intro-title">Hi, I’m Benjamin</h1>
-<p class="field">Computer science · AI research <span> / Bukavu, DR Congo</span></p>
 <div class="bio"><p>I’m a computer science graduate based in Bukavu, DR Congo. I worked on <a href="#afiafirst">AfiaFirst-TB</a>, a chest X-ray analysis prototype, and contributed to a <a href="#publication">published study of antibiotic resistance</a> at Bukavu Provincial General Referral Hospital.</p>
 <p>My current interests focus on efficient vision-language models and how they use visual evidence. When a model gives a correct medical answer, I want to understand how much it depends on the image, and what changes when we compress the model or its visual tokens.</p></div>
-<div class="intro-meta"><a class="icon-link" href="https://drive.google.com/file/d/1WwuLWsTLvSRrXImiaWFrVVbUTfAL1bVo/view"><img class="inline-icon" src="assets/file-text.svg" width="16" height="16" alt="">CV PDF</a><p class="updated"><img class="inline-icon" src="assets/calendar.svg" width="16" height="16" alt="">Last updated <time datetime="2026-10-26">26 October 2026</time></p></div>
+<div class="intro-meta"><a class="icon-link" href="https://drive.google.com/file/d/1WwuLWsTLvSRrXImiaWFrVVbUTfAL1bVo/view"><img class="inline-icon" src="assets/file-text.svg" width="16" height="16" alt="">CV PDF</a><p class="updated"><img class="inline-icon" src="assets/calendar.svg" width="16" height="16" alt="">Last updated: <time datetime="2026-10">October 2026</time></p></div>
 </div>
 </section>
-<section class="research-interests" aria-labelledby="interests-title"><h2 id="interests-title">Research interests</h2><ul class="interest-list"><li>Efficient vision-language models</li><li>Visual evidence</li><li>Medical AI</li></ul></section>
+<section class="research-interests" aria-labelledby="interests-title"><h2 id="interests-title">Research interests</h2><ul class="interest-list"><li>Computer Vision</li><li>Efficient Vision-Language Models</li><li>Visual Evidence &amp; Reasoning</li><li>Medical AI</li></ul></section>
 <section class="selected-work" id="work" aria-labelledby="work-title">
 <h2 id="work-title">Selected work</h2>
 <article class="work-row" id="afiafirst"><p class="work-year">2025</p><div class="work-main">
@@ -51,7 +54,7 @@
 <div class="work-heading"><h3>Antibiotic resistance in Bukavu</h3><p class="work-status">Published · Co-author</p></div>
 <p>Helped digitise <strong>1,801 bacterial-isolate records</strong> from hospital registers and contributed to cleaning, analysis and visualisation for a retrospective study, published in <cite>Infection and Drug Resistance</cite>.</p>
 <div class="work-links"><a class="icon-link" href="https://doi.org/10.2147/IDR.S626233"><img class="inline-icon" src="assets/external-link.svg" width="16" height="16" alt="">Article</a></div>
-<details><summary>Reference &amp; authors</summary><p><cite>High Burden of Multidrug-Resistant Bacteria in Eastern Democratic Republic of the Congo: A Retrospective Hospital-Based Study</cite>. Infection and Drug Resistance, 2026.</p><p>Corneille Kabagale Ansima, Gates Iragi Mulume, <strong>Benjamin Jibu Maroyi</strong>, Stella Alanga Murhabazi, Kein Kalume Kamwanga, Alfred Mulumeoderwa Badesire, Patricia Raharisoa Dina, Espoir Ntabala Lwabaguma, Eric Hendwa Kashinja, Emmanuel Ongezi Lurhangire, Alfred Cubaka Kabagale and David Lupande Mwenebitu.</p></details>
+<details><summary>About the study</summary><p>A retrospective hospital-based study of multidrug-resistant bacteria in eastern DR Congo. I contributed to preparing and analysing data from hospital registers and presenting the findings.</p><p><cite>High Burden of Multidrug-Resistant Bacteria in Eastern Democratic Republic of the Congo: A Retrospective Hospital-Based Study</cite>. Infection and Drug Resistance, 2026.</p></details>
 </div></article>
 <article class="work-row" id="compression"><p class="work-year">2026</p><div class="work-main">
 <div class="work-heading"><h3>LLaVA-Med / VQA-RAD</h3><p class="work-status">Fatima Fellowship · Exploratory pilot</p></div>
@@ -61,10 +64,10 @@
 </section>
 <section class="background-summary" aria-labelledby="background-title"><h2 id="background-title">Background</h2><p><strong>Predoctoral Fellow</strong> · Fatima Institute for Global AI Research · 2026–present<br><strong>B.Sc. in Computer Science</strong> · Université Catholique de Bukavu · 2025 · 16.59/20</p></section>
 <section class="contact" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">Contact</h2><p><a class="icon-link" href="mailto:jibu.maroyi@ucbukavu.ac.cd"><img class="inline-icon" src="assets/mail.svg" width="16" height="16" alt="">jibu.maroyi@ucbukavu.ac.cd</a></p></section>
-<footer class="site-footer"><span>Benjamin Jibu Maroyi · Bukavu, DR Congo</span><a href="#top">Back to top</a></footer>
+<footer class="site-footer"><span>Benjamin Jibu Maroyi · Bukavu, DR Congo</span><a class="back-to-top" href="#top" aria-label="Back to top" title="Back to top"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></a></footer>
 </main>
 <dialog class="portrait-dialog" aria-label="Portrait of Benjamin Jibu Maroyi">
-<form method="dialog" class="portrait-controls"><button class="portrait-close" type="submit" autofocus>Close</button></form>
+<form method="dialog" class="portrait-controls"><button class="portrait-close" type="submit" aria-label="Close portrait" title="Close portrait" autofocus><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></form>
 <img class="portrait-full" src="assets/benjamin-maroyi.jpg" width="1371" height="1457" alt="Portrait of Benjamin Jibu Maroyi, enlarged" loading="lazy">
 </dialog>
 <script src="portrait.js" defer></script>
