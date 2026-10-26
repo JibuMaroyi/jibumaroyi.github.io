@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#061426">
 <link rel="preload" href="assets/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=20261026-2">
 <script src="theme.js"></script>
 <title>Benjamin Jibu Maroyi | AI Research</title>
 <meta name="description" content="Benjamin Jibu Maroyi, computer science graduate in Bukavu. Selected work in medical AI, hospital data and efficient vision-language models.">
@@ -20,12 +20,14 @@
 <main id="main" class="page" tabindex="-1">
 <section class="hero" id="about" aria-labelledby="intro-title">
 <div class="profile">
-<img class="portrait" src="assets/benjamin-maroyi.jpg" width="1371" height="1457" alt="Portrait of Benjamin Jibu Maroyi" fetchpriority="high">
-<div class="profile-links" aria-label="Contact and professional profiles">
+<a class="portrait-link" href="assets/benjamin-maroyi.jpg" aria-label="View larger portrait of Benjamin Jibu Maroyi" title="View larger portrait"><img class="portrait" src="assets/benjamin-maroyi.jpg" width="1371" height="1457" alt="Portrait of Benjamin Jibu Maroyi" fetchpriority="high"></a>
+<div class="profile-contacts"><p class="profile-label" id="profile-label">Find me</p>
+<div class="profile-links" aria-labelledby="profile-label">
 <a href="mailto:jibu.maroyi@ucbukavu.ac.cd" aria-label="Email Benjamin at UCB" title="Email · UCB"><img src="assets/mail.svg" width="21" height="21" alt=""></a>
 <a href="https://www.researchgate.net/profile/Benjamin-Maroyi" aria-label="ResearchGate profile" title="ResearchGate"><img src="assets/researchgate.svg" width="21" height="21" alt=""></a>
 <a href="https://github.com/JibuMaroyi" aria-label="GitHub profile" title="GitHub"><img src="assets/github.svg" width="21" height="21" alt=""></a>
 <a href="https://www.linkedin.com/in/jibumaroyi/" aria-label="LinkedIn profile" title="LinkedIn"><img src="assets/linkedin.svg" width="21" height="21" alt=""></a>
+</div>
 </div>
 </div>
 <div class="intro-copy">
@@ -60,4 +62,10 @@
 <section class="background-summary" aria-labelledby="background-title"><h2 id="background-title">Background</h2><p><strong>Predoctoral Fellow</strong> · Fatima Institute for Global AI Research · 2026–present<br><strong>B.Sc. in Computer Science</strong> · Université Catholique de Bukavu · 2025 · 16.59/20</p></section>
 <section class="contact" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">Contact</h2><p><a class="icon-link" href="mailto:jibu.maroyi@ucbukavu.ac.cd"><img class="inline-icon" src="assets/mail.svg" width="16" height="16" alt="">jibu.maroyi@ucbukavu.ac.cd</a></p></section>
 <footer class="site-footer"><span>Benjamin Jibu Maroyi · Bukavu, DR Congo</span><a href="#top">Back to top</a></footer>
-</main></body></html>
+</main>
+<dialog class="portrait-dialog" aria-label="Portrait of Benjamin Jibu Maroyi">
+<form method="dialog" class="portrait-controls"><button class="portrait-close" type="submit" autofocus>Close</button></form>
+<img class="portrait-full" src="assets/benjamin-maroyi.jpg" width="1371" height="1457" alt="Portrait of Benjamin Jibu Maroyi, enlarged" loading="lazy">
+</dialog>
+<script src="portrait.js" defer></script>
+</body></html>
